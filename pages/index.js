@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Nav from "../components/Navbar/navbar";
+import Header from '../components/Header/header'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
+      <Header />
     </div>
   );
 };
