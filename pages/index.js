@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Nav from "../components/Navbar/navbar";
 import Header from "../components/Header/header";
+import Trusted from "../components/Trusted/Trusted";
 import styled from "styled-components";
 
 const MainHeader = styled.div`
@@ -26,6 +27,7 @@ const Home = () => {
       <MainHeader>
         <Nav />
         <Header />
+        <Trusted />
       </MainHeader>
     </div>
   );
